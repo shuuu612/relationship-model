@@ -11,6 +11,8 @@ const stopIcon = document.getElementById('stop');
 button.addEventListener('click', handleClick);
 playIcon.style.cssText = 'display:none';
 
+document.addEventListener('keyup', handleKeyup);
+
 let requestID;
 let isPlaying = true;
 
@@ -219,6 +221,12 @@ function handleClick() {
     clickPlay();
   }
   isPlaying = !isPlaying;
+}
+
+function handleKeyup(e) {
+  if (e.code === 'Space') {
+    handleClick();
+  }
 }
 
 function clickPlay() {
