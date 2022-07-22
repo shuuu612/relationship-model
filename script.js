@@ -134,8 +134,8 @@ class Circle {
 
 let circles = [
   // love and love
-  new Circle('circle1', width / 2, height / 2, 'rgb(207,221,164)', 40, 3, 20), // Yellow circle
-  new Circle('circle2', width / 2, height / 2, 'rgb(82,158,175)', 40, 3, 20), // Blue circle
+  new Circle('circle1', width / 2, height / 2, 'rgb(207,221,164)', 40, 3, 50), // Yellow circle
+  new Circle('circle2', width / 2, height / 2, 'rgb(82,158,175)', 40, 3, 50), // Blue circle
 ];
 
 /* let circles = [
